@@ -18,8 +18,10 @@ This analysis investigates:
   - Cholesterol levels (chol)
   - Maximum heart rate (thalach)
   - Exercise-induced angina (exang)
+   
+  ## Key Findings
  
-    ## Visual Analysis Highlights
+  ### Visual Analysis Highlights
 
 - **Age Distribution**: Most patients with heart disease were aged between 40 and 60.
 - **Sex-based Risk**: Males showed a higher prevalence of heart disease in the dataset.
@@ -34,10 +36,7 @@ This analysis investigates:
 - **Exercise-Induced Angina (exang)**:
   - More common in patients **with** heart disease.
 
-
-##  Key Findings
-
 ###  Heart Disease Distribution
   data.target.value_counts()
-  # 1: 165 (Heart Disease)
-  # 0: 138 (No Heart Disease)
+  - 1: 165 (Heart Disease)
+  - 0: 138 (No Heart Disease)
